@@ -1,4 +1,5 @@
 # VelibAlziary
+![screenshot](https://user-images.githubusercontent.com/48029801/53682827-f8311400-3cf9-11e9-880b-9d2d99066830.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
 
