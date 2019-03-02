@@ -1,0 +1,23 @@
+
+<div style="text-align:center">
+  <h1>
+    Bienvenue sur Velib-ALZIARY
+  </h1>
+</div>
+
+<!-- Déclaration du conteneur de la carte -->
+
+<div id="alziarymap">
+
+</div>
+
+
+
+<form>
+    <select [(ngModel)]="stationSelected">
+      <option *ngFor="let newstation of newstations | async " (click)="updateMap(newstation)" >{{ newstation.name }}</option>
+    </select>
+</form>
+
+
+
